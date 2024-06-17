@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "POI",
+    "collectionId": "08538d2b-93c9-4042-9985-b10ebd4478b0",
+    "dateExported": "2024-06-17T14:28:57.072Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1e115569-c668-49b6-88b6-c27fb084e5a2",
+            "colId": "08538d2b-93c9-4042-9985-b10ebd4478b0",
+            "containerId": "",
+            "name": "createPoi",
+            "url": "http://localhost:3000/poi",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-17T13:00:43.896Z",
+            "modified": "2024-06-17T13:16:23.616Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"status\": 1,\n  \"openningHours\": 1,\n  \"address\": {\n    \"country\": \"Germany\",\n    \"zipCode\": \"1234\",\n    \"city\": \"Augsburg\",\n    \"street\": \"Kleinstr\",\n    \"houseNumber\": \"23\"\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4cc63177-91c9-48d1-b523-1beadffe6a6c",
+            "colId": "08538d2b-93c9-4042-9985-b10ebd4478b0",
+            "containerId": "",
+            "name": "getAll",
+            "url": "http://localhost:3000/poi/0/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-17T13:32:29.462Z",
+            "modified": "2024-06-17T13:34:01.939Z",
+            "headers": []
+        },
+        {
+            "_id": "31ba58a9-7752-4bac-94be-233eae3a67ef",
+            "colId": "08538d2b-93c9-4042-9985-b10ebd4478b0",
+            "containerId": "",
+            "name": "deletePoi",
+            "url": "http://localhost:3000/poi/3",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-06-17T13:39:39.700Z",
+            "modified": "2024-06-17T13:40:06.133Z",
+            "headers": []
+        },
+        {
+            "_id": "a2196c78-ccc1-4483-b10f-8b7ba8cf4e00",
+            "colId": "08538d2b-93c9-4042-9985-b10ebd4478b0",
+            "containerId": "",
+            "name": "createProduct",
+            "url": "http://localhost:3000/product",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-06-17T13:54:04.974Z",
+            "modified": "2024-06-17T13:54:44.957Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"product1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b71b28c9-3a34-41f9-8e08-fac756448a78",
+            "colId": "08538d2b-93c9-4042-9985-b10ebd4478b0",
+            "containerId": "",
+            "name": "addPumpsToPoi",
+            "url": "http://localhost:3000/poi/8",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-06-17T14:10:58.057Z",
+            "modified": "2024-06-17T14:12:19.681Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[{\n  \"name\": \"pump-1\",\n  \"fuelProducts\": [1]\n}]",
+                "form": []
+            }
+        }
+    ],
+    "ref": "BoBVwGC9xy7m71kErM440U0FTCDjXEFU0nNgPwa7cGOimrRxKoYLaJejFfUABiwncNq2n2cMjF8bgG0zCgAukw"
+}
