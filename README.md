@@ -47,5 +47,6 @@ $ npm run start:dev
 
 ## Sample APIs
 
-All sample Apis can be found in this file `POI-Api-collection.json`. You may import the collection in VS code and try them.
+All sample Apis can be found in this file `POI-Api-collection.json`. You may import the `collection` in VS code and try them.
+Please install `Thunder Client` extension in order to import the collection.
 
